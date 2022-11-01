@@ -39,6 +39,6 @@ for i in range(listSize):                                        # Generate list
 
 print("ListA =",randomList)
 
-newList = sortList(randomList, lowerBound, upperBound)
+newList = sortList(randomList, lowerBound, upperBound)          # Counting Sort requires to know the lower and upper bound of values
 
 print("ListB =",newList)
